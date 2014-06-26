@@ -1,0 +1,26 @@
+﻿Build started 6/26/2014 12:44:44 PM.
+     1>Project "U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\EngineDemo\EngineDemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\EngineDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       PostBuildEvent:
+         Description: Copy third-party libraries
+         copy "U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\glew\lib\glew32.dll" "U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\Debug\glew32.dll" & copy "U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\glfw3\lib-msvc110\glfw3.dll" "U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\Debug\glfw3.dll"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\EngineDemo.unsuccessfulbuild".
+         Touching "Debug\EngineDemo.lastbuildstate".
+     1>Done Building Project "U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\EngineDemo\EngineDemo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.15

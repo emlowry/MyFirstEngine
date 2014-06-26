@@ -1,0 +1,29 @@
+﻿Build started 6/26/2014 12:18:22 PM.
+     1>Project "U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\MathLibrary\MathLibrary.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\MathLibrary.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IU:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\MathLibrary\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MATHLIBRARY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MathLibrary.cpp
+         MathLibrary.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MathLibrary.dll.embed.manifest.res" Debug\MathLibrary_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\Debug\MathLibrary.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MathLibrary.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\Debug\MathLibrary.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\Debug\MathLibrary.lib" /MACHINE:X86 /DLL Debug\MathLibrary.dll.embed.manifest.res
+         Debug\MathLibrary.obj
+            Creating library U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\Debug\MathLibrary.lib and object U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\Debug\MathLibrary.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MathLibrary.dll.embed.manifest" /manifest Debug\MathLibrary.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         MathLibrary.vcxproj -> U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\Debug\MathLibrary.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\MathLibrary.unsuccessfulbuild".
+         Touching "Debug\MathLibrary.lastbuildstate".
+     1>Done Building Project "U:\Users\emlowry\Dropbox\GitHub\MyFirstEngine\MathLibrary\MathLibrary.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.04
